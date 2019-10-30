@@ -23,17 +23,17 @@
 .menu0{
     position: relative;
 }
-.menu0 .menu1{
+.menu0 .menu1 li{
     position: absolute;
     padding: 0px;
     margin: 0px;
 }
-.menu1 li{
+.menu1{
     background: #efefef;
     display: none;
     box-shadow:0 4px 5px rgb(90, 89, 89);
 }
-.menu ul li .menu1 li:hover{
+.menu ul li .menu1:hover{
     background: gold;
 }
 .menu ul li:hover{
