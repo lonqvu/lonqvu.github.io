@@ -1,0 +1,107 @@
+*
+{
+	margin: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.All
+{
+	width: 100%;
+}
+.Image
+{
+	height: 400px;
+	width: 100%;
+	z-index: -1;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+}
+.Menu
+{
+	height: 60px;
+	background-color: white;
+	width: 100%;
+	z-index: 3;
+	position: fixed;
+}
+li
+{
+	display: flex;
+	line-height: 60px;
+}
+ul:hover
+{
+	color: red;
+}
+.Title
+{
+	margin: auto;
+	z-index: 2;
+	position: initial;
+	color: grey;
+	background-color: white;
+}
+.Title div
+{
+	padding: 20px;
+}
+.Space
+{
+	height: 460px;
+	z-index: 2;
+	position: initial;
+}
+h1
+{
+	line-height: 120px;
+}
+.Title1
+{
+	width: 75%;
+	margin: auto;
+}
+.Image1
+{
+	height: 400px;
+	width: 400px;
+	border-radius: 400px;
+	margin-left: auto;
+}
+.Title2
+{
+	width: 400px;
+	height: 400px;
+	margin-right: auto;
+}
+.Image2
+{
+	height: 400px;
+	width: 400px;
+	border-radius: 400px;
+	margin-right: auto;
+}
+.Title3
+{
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+}
+.Footer
+{
+	height: 150px;
+	background-color: grey;
+	color: white;
+}
+h2
+{
+	padding-top: 60px;
+}
+.Footer:hover
+{
+	background-color: silver;
+}
+a
+{
+	color: white;
+}
