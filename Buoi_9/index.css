@@ -1,0 +1,727 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    background: beige;
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.trai{
+    height: auto;
+    width: 35%;
+    margin-right: 5%;
+    float: left;
+    position: relative;
+    position: fixed;
+
+}
+.trai img{
+    height: 1000px;
+    width: 100%;
+}
+.phai{
+    width: 60%;
+    height: auto;
+    float: left;
+    position: absolute;
+    left: 460px;
+}
+.adu1{
+    color: black;
+    border: black solid 1px;
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    left: 90px;
+    position: absolute;
+    margin: 0px 8px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.adu1:hover{
+    background: red;
+}
+.header{
+    height: 300px;
+    width: 100%;
+}
+.phai .adu{
+    border: black solid 1px;
+    text-align: center;
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    left: 347px;
+    position: absolute;
+    margin: 0px 8px;
+}
+.header .adu:hover{
+    background: coral;
+    color: #ffffff;
+    cursor: pointer;
+}
+.than{
+    margin-top: 100px;
+    color: crimson;
+    margin-left: 100px;
+}
+.trai1{
+    width: 48%;
+    height: 1000px;
+    float: left;
+    margin-right: 3%;
+}
+.trai1 img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+.phai1{
+    width: 49%;
+    height: 1000px;
+    float: left;
+}
+.phai1 img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+.than2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.a{
+  width: 100%;
+  height: 30px;
+  background: #333333;
+  color: #ffffff;
+  z-index: 2;
+
+
+}
+.b{
+    width: 95%;
+    height: 30px;
+    background: red;
+    z-index: 1;
+    line-height: 30px;
+    text-align: center;
+
+}
+.a1{
+    width: 100%;
+    height: 30px;
+    background: #333333;
+    color: #ffffff;
+    z-index: 2;
+  
+  
+  }
+  .b1{
+      width: 85%;
+      height: 30px;
+      background: red;
+      z-index: 1;
+      line-height: 30px;
+      text-align: center;
+  }
+  .a2{
+    width: 100%;
+    height: 30px;
+    background: #333333;
+    color: #ffffff;
+    z-index: 2;
+  
+  
+  }
+  .b2{
+      width: 80%;
+      height: 30px;
+      background: red;
+      z-index: 1;
+      line-height: 30px;
+      text-align: center;
+  }
+.d{
+    height: 100px;
+    width: 100%;
+    background: chocolate;
+    margin-top: 50px;
+}
+.d1{
+    text-align: center;
+    padding: 20px 20px 70px 120px;
+    float: left;
+    font-size: 20px;
+}
+.d2{
+    text-align: center;
+    padding: 0px 20px 70px 120px;
+    font-size: 20px; 
+}
+.my-reputation{
+	width: 95%;
+	height: 50px;
+
+	margin: 0 auto;
+}
+.my-reputation>p{
+	font-size: 27px;
+	color: grey;
+	margin-top: 50px;
+}
+
+
+
+
+.famous-person1{
+	width: 95%;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.famous-person1>img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 16px;
+}
+
+.famous-person1>p{
+	line-height: 35px;
+	margin-left: 10px;
+	color: grey;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+
+
+.famous-person2{
+	width: 95%;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+.famous-person2>img{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 16px;
+}
+
+.famous-person2>p{
+	line-height: 35px;
+	margin-left: 10px;
+	color: grey;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+
+.famous-person3{
+	width: 95%;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.famous-person3>img{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 16px;
+}
+
+.famous-person3>p{
+	line-height: 40px;
+	margin-left: 10px;
+	color: grey;
+	font-size: 15px;
+}
+.my-price{
+	width: 95%;
+	height: 50px;
+
+	margin:0 auto;
+	margin-top: 50px;
+	line-height: 50px;
+}
+.my-price>p{
+	font-size: 25px;
+	color: grey;
+}
+
+.price{
+	width: 95%;
+	height: auto;
+
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.left-price{
+	width: 49.2%;
+	height: 530px;
+	box-shadow: 0px 0px 6px grey;
+	float: left;
+}
+.left-price:hover{
+	box-shadow: 0px 0px 10px grey;
+}
+.basic{
+	width: 100%;
+	height: 100px;
+	background: #616161;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+.basic>p{
+	font-size: 27px;
+	color: #f3f3f3;
+}
+.Web-Design{
+	width: 100%;
+	height: 50px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.Web-Design>p{
+	font-size: 16px;
+	color: grey;
+}
+.phoTography{
+	width: 100%;
+	height: 50px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.phoTography>p{
+	font-size: 16px;
+	color: grey;
+}
+
+.Storage{
+	width: 100%;
+	height: 50px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.Storage>p{
+	font-size: 16px;
+	color: grey;
+}
+
+.Mail-Support{
+	width: 100%;
+	height: 50px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.Mail-Support>p{
+	font-size: 16px;
+	color: grey;
+}
+
+.per-month1{
+	width: 100%;
+	height: 130px;
+	background: white;
+	text-align: center;
+	
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 35px 0;
+}
+
+.per-month1>p{
+	font-size: 16px;
+	color: grey;
+	line-height: 39px;
+}
+
+.sign_up{
+	width: 100%;
+	height: 100px;
+	background: #f1f1f1;
+	box-sizing: border-box;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 35px 0;
+}
+
+.sign{
+	width: 110px;
+	height: 45px;
+	background: white;
+	line-height: 45px;
+	text-align: center;
+	margin: 0 auto;
+}
+.sign>p{
+	font-size: 16px;
+	color: grey;
+}
+.sign:hover{
+	
+	background: black;
+}
+.sign>p:hover{
+	color: white;
+}
+
+
+.right-price{
+	width: 49.2%;
+	height: 530px;
+	box-shadow: 0px 0px 6px grey;
+	float: right;
+}
+.right-price:hover{
+	box-shadow: 0px 0px 10px grey;
+}
+.contact-me{
+	width: 95%;
+	height: 140px;
+
+	margin:0 auto;
+	clear: both;
+	border-bottom: 1px solid #f1f1f1;
+}
+.contact-me>p{
+	padding: 80px 0;
+	font-size: 30px;
+	color: grey;
+}
+
+.infor{
+	width: 95%;
+	height: 170px;
+
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.map{
+	width: 100%;
+	height: 60px;
+	
+}
+.map>i{
+	font-size: 40px;
+	color: #757575;
+
+}
+.map span{
+	font-size: 15px;
+	color: grey;
+	margin-left: 35px;
+}
+
+.phone{
+	width: 100%;
+	height: 60px;
+	
+}
+.phone>i{
+	font-size: 40px;
+	color: #757575;
+
+}
+.phone span{
+	font-size: 15px;
+	color: grey;
+	margin-left: 23px;
+}
+
+
+.email{
+	width: 100%;
+	height: 60px;
+	
+}
+.email>i{
+	font-size: 35px;
+	color: #757575;
+
+}
+.email span{
+	font-size: 15px;
+	color: grey;
+	margin-left: 20px;
+}
+
+.image-map{
+	width: 95%;
+	height: auto;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.image-map>img{
+	width: 100%;
+	height: 100%;
+}
+
+.send-message{
+	width: 95%;
+	height: 70px;
+
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.send-message>p{
+	font-size: 16px;
+	color: grey;
+}
+
+.personal-information{
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.name{
+	width: 100%;
+	height: 50px;
+	font-size: 17px;
+}
+.emails{
+	width: 100%;
+	height: 50px;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.Subject{
+	width: 100%;
+	height: 50px;
+	font-size: 17px;
+	margin-top: 15px;
+}
+.Message{
+	width: 100%;
+	height: 50px;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.SEND-Message{
+	width: 95%;
+	height: 50px;
+
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.submit{
+	width: 190px;
+	height: 45px;
+	
+	text-align: center;
+	line-height: 45px;
+	background: #f1f1f1;
+}
+.submit:hover{
+	background: grey;
+}
+
+.footer{
+	width: 100%;
+	height: 210px;
+	background: #f1f1f1;
+	margin-top: 80px;
+	text-align: center;
+
+}
+.footer i{
+	font-size: 25px;
+	color: grey;
+	margin-top: 80px;
+
+}
+.footer p{
+	font-size: 18px;
+	color: grey;
+	margin-top: 15px;
+}
+
+.footer span:hover{
+	color: #00ff99;
+}
+
+@media screen and (max-width: 990px){
+	.content{
+	
+		float: none;
+		position: absolute;
+
+	}
+	.content>img{
+		display: none;
+	}
+	.sidebar{
+		width: 100%;
+	
+		float: none;
+
+	}
+	.image-responsive{
+		width: 60%;
+		height: auto;
+		margin:0 auto;
+		background: red;
+	}
+	.image-responsive>img{
+		display: block !important;
+		width: 100%;
+		height: auto;
+	}
+	.header{
+		height: auto;
+	}
+	.download{
+		margin-top: 20px;
+	}
+	.text-bellow-about{
+		height: auto;
+	}
+	.my-skills{
+		margin-top: 20px;
+	}
+	.next-download {
+   	 	width: 200px;
+    	height: 45px;
+   		
+	}
+
+	
+}
+@media screen and (max-width: 600px){
+	.image-responsive{
+		width: 90%;
+		height: auto;
+		margin:0 auto;
+		background: red;
+	}
+	.image-responsive>img{
+		display: block !important;
+		width: 100%;
+		height: auto;
+	}
+	.left-container{
+		width: 100%;
+		
+		float: none;
+	}
+	.right-container{
+		width: 100%;
+		margin-top: 15px;
+		float: none;
+	}
+	.left-price{
+		width: 100%;
+		float: none;
+	}
+	.right-price{
+		width: 100%;
+		float: none;
+		margin-top: 15px;
+	}
+	.next-section{
+		height: auto;
+	}
+	.left-next-section{
+		width: 100%;
+		float: none;
+	}
+	.beetwen1{
+		width: 100%;
+		float: none;
+	}
+	.beetwen2{
+		width: 100%;
+		float: none;
+	}
+	.right-next-section{
+		width: 100%;
+		float: none;
+	}
+	.next-download {
+   	 	display: none;
+	}
+
+}
+@media screen and (max-width: 386px){
+	
+	.famous-person1{
+	
+		height: 150px;
+		
+	}
+	.famous-person2{
+	
+		height: 150px;
+		
+	}
+	.famous-person3{
+	
+		height: 150px;
+		
+	}
+}
+@media screen and (max-width: 306px){
+	
+	.famous-person1{
+	
+		height: 200px;
+		
+	}
+
+}
+@media screen and (max-width: 266px){
+	
+	.famous-person2{
+	
+		height: 200px;
+		
+	}
+
+}
