@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    margin: 100px 10% 0px 10%;
+    width: 80%;
+    height: 1000px;
+}
+.body .trai{
+    width: 20%;
+    height: 100%;
+    padding-right: 5%;
+    float: left;
+}
+.body .phai{
+    width: 20%;
+    height: 100%;
+    padding-left: 5%;
+    float: left;
+}
+
+.giua{
+    width: 50%;
+    height: 100%;
+
+    float: left;
+}
+.tren{
+    width: 100%;
+    height: 33%;
+    float: left;
+    margin-bottom: 5%;
+}
+.tren1{
+    width: 100%;
+    height: 33%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.tren2{
+    width: 100%;
+    height: 31%;
+    float: left;
+}
+
+.tren img{
+    width: 100%;
+    height: 100%;
+}
+.tren1 img{
+    width: 100%;
+    height: 100%;
+}
+.tren2 img{
+    width: 100%;
+    height: 100%;
+}
+.tren img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+.tren1 img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+.tren2 img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.giua img{
+    height: 100%;
+    width: 100%;
+}
+
+.trum{
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+.trum img{
+    width: 100%;
+    height: 100%;
+}
